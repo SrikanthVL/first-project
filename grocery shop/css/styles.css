@@ -1,0 +1,35 @@
+.header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+  }
+  .menu {
+    float: left;
+    width: 20%;
+  }
+  .menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  .footer {
+    text-align: center;
+    font-size: small;
+  }
+body {
+    margin: 0;
+    position: relative;
+    background-image: url(https://image.shutterstock.com/image-photo/online-shopping-concept-cart-bags-260nw-1680067750.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
